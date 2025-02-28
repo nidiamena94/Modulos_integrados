@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #282a36;
+    color: white;
+    padding: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logout {
+    color: #ff5555;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    margin: 15px 0;
+    background-color: #ffc857;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.reservation-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.reserve-button {
+    background-color: #3b3b98;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.calendar {
+    margin: 15px 0;
+}
+
+.days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.days button {
+    background: none;
+    border: none;
+    color: #3b3b98;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.days span {
+    padding: 5px 10px;
+    color: #333;
+}
+
+.days .selected {
+    background-color: #ffc857;
+    color: white;
+    border-radius: 50%;
+}
+
+.time-selection {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.time-selection p {
+    font-weight: bold;
+}
+
+.time-selection span {
+    color: #ff5555;
+    font-weight: bold;
+}
+
+.times {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.times span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.times .selected {
+    background-color: #ff5555;
+    color: white;
+}
+
+.stylist-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.stylist-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #282a36;
+    color: white;
+    padding: 10px 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
